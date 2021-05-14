@@ -174,7 +174,6 @@ namespace CaixaSupermercado
             {
                 if (ValidaCPF() == true)
                 {
-                    MessageBox.Show("CPF VALIDO!", "hm!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     Transferir(txtCpf.Text);
                     txtCpf.Text = cpfPrincipal;
                 }
